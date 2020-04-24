@@ -6,7 +6,7 @@ React.js
 
 Prerequisite: JavaScript
 
-Module 1 - The Basics
+Module 2 - The Basics
     Basics of JavaScript (need to know to make the most out of this course)
         variables and types
         objects and arrays
@@ -63,3 +63,11 @@ Module 1 - The Basics
             using Babel to convert JSX into React API calls
             REMEMBER: Always name React components with an Uppercase letter
             immutable props. mutable state
+
+Module 3 - Modern JavaScript Crash Course
+    Check out The Complete Introduction to Modern JavaScript on jscomplete.com/learn/beginner
+    Block scope vs Function scope
+        Both made with pair of curly braces
+        Variables defined with var inside functions cannot be accessed outside function scope but those defined with var inside block scope
+            like for loops can be accessed outside block scope
+        In order to avoid bugs, use let keyword when defining variables in scope
