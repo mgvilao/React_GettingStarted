@@ -4,3 +4,62 @@ Instructor: Samer Buna - Chief Engineer at AGILELABS.COM
 
 React.js
 
+Prerequisite: JavaScript
+
+Module 1 - The Basics
+    Basics of JavaScript (need to know to make the most out of this course)
+        variables and types
+        objects and arrays
+        functions and classes
+        loops and conditionals
+    Learning JS:
+        Book: jscomplete.com/beginning-js
+        Labs: jscomplete.com/js-labs 
+
+    Why React?
+        A JavaScript library for building user interfaces
+            not a framework, will need other libraries to build full solutions
+            if the device we're trying to interface can understand JavaScript, we can use React to describe a user interface for it 
+        Mostly used for describing web user interfaces
+        HTML - declarative for static content
+        React - declarative for dynamic content
+        Disadvantages of frameworks (and why it's a good React isn't one)
+            Limited flexibility
+                do things a certain way
+                hard to deviate
+            Large and full of features
+                hard to customize
+                use the whole thing 
+        The "virtual" browser (vs. DOM API)
+        "Just JavaScript"
+        React Native (for the win) - mobile yay
+        Battle-tested
+        Declarative language (model UI and state)
+
+    React's Basic Concepts
+        Three simple and fundamental concepts:
+        1) Components 
+            like functions
+            input: props, state | output: UI
+            reusable and composable
+            not invoked but used as a regular HTML element <Component />
+            can manage a private state
+        2) Reactive updates
+            when the state of a React component changes, the UI it represents changes as well
+            React will react (HA!)
+        3) Virtual views in memory
+            generate HTML using JavaScript
+            no HTML template language
+            tree reconciliation
+            React uses the virtual DOM to compare versions of the UI in memory before acting on them
+        React Components - Function component | Class component
+            Function component
+                much simpler
+                preferable for starters
+            Class component
+                more powerful
+            First react component - Demo on jscomplete.com/playground
+            The code in the playground compiles because it's JSX, not HTML
+            using Babel to convert JSX into React API calls
+            REMEMBER: Always name React components with an Uppercase letter
+            immutable props. mutable state
