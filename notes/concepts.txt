@@ -71,3 +71,6 @@ Module 3 - Modern JavaScript Crash Course
         Variables defined with var inside functions cannot be accessed outside function scope but those defined with var inside block scope
             like for loops can be accessed outside block scope
         In order to avoid bugs, use let keyword when defining variables in scope
+
+Module 4 - The GitHub Cards App
+    Code written in seprate .js files under examples
