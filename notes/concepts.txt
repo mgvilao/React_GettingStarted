@@ -97,4 +97,6 @@ Module 5 - The Star Match Game
         Don't call hooks inside loops or conditions 
 
 Module 6 - Setting up a Development Environment
-    
+    Create React App - facebook.github.io/create-react-app/
+    Using create-react-app locally
+
