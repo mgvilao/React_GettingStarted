@@ -74,3 +74,24 @@ Module 3 - Modern JavaScript Crash Course
 
 Module 4 - The GitHub Cards App
     Code written in seprate .js files under examples
+
+Module 5 - The Star Match Game
+    Simple match game for kids 
+    playable at jscomplete.com/react-games/star-match
+
+    When coding in React, look for ways to:
+        make the code dynamic
+        extract components - in order to split responsibilities 
+            items that share similar DATA or BEHAVIOR are candidates to become an item component 
+            make sure not to override the top level JavaScript objects in the scope
+            jscomplete.com/closures
+            there are two aspects to every behavior implemented in React app 
+                - the app logic to change state
+                - UI logic to describe state
+    jscomplete.com/rgs-hooks for tips on how deal with side effect cleanups
+    jscomplete.com/no-ifs for tips on nested ternary operators 
+    custom hooks
+        normal functions special in the sense that they use special React hook functions to manage state 
+        it's custom to name them starting with 'use' => useABC
+    Rule of Hooks 
+        Don't call hooks inside loops or conditions 
