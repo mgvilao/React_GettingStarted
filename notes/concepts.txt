@@ -99,4 +99,6 @@ Module 5 - The Star Match Game
 Module 6 - Setting up a Development Environment
     Create React App - facebook.github.io/create-react-app/
     Using create-react-app locally
+    Creating your own JavaScript Development Environment
+        jscomplete.com/reactful
 
