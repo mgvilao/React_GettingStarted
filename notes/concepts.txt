@@ -95,3 +95,6 @@ Module 5 - The Star Match Game
         it's custom to name them starting with 'use' => useABC
     Rule of Hooks 
         Don't call hooks inside loops or conditions 
+
+Module 6 - Setting up a Development Environment
+    
